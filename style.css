@@ -1,25 +1,31 @@
-html{
+html {
 
-    font-size: 62.5%;
-    height: 100vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
-
-body{
-  
-  background-color: rgba(250, 250, 250, 0.581);
+  font-size: 62.5%;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
-fieldset{
-  
+body {
+
+  background-color:#f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+fieldset {
+
   height: 60rem;
-  width: 55rem;
-
+  width: 45rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.096);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.255);
 }
 
-.header{
+.header {
   width: 100%;
   height: 23rem;
   margin-top: 1rem;
@@ -31,7 +37,7 @@ fieldset{
 
 }
 
-.container-header{
+.container-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,62 +46,70 @@ fieldset{
   width: 100%;
 }
 
-.tamanho-icone{
+.tamanho-icone {
   height: 65px;
   width: 65px;
-  background-color: rgba(0, 0, 255, 0.719);
+  background-color:#6da8fa;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  
+
 
 }
 
-.tamanho-icone img{
+.tamanho-icone img {
   height: 90%;
   width: 90%;
 }
 
-.titulo{
+.titulo {
   font-size: 2.4em;
   margin: 0;
-  padding: 1rem;;
-}
-
-.sub-titulo{
-  margin: 0;
-  font-size: 1.4rem;
-}
-
-.delimitador{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 90%;
-  height: 30rem;
-  margin: 0 auto;
-
-  padding-top: 2rem;
-}
-
-.entrada-texto{
-   display: flex;
-   flex-direction: column;
-   gap: 1rem;
-
-}
-
-label{
-  font-size: 1.7rem;
-  margin: 0;
+  padding: 1rem;
   ;
 }
 
-input{
-margin: 0;
+.sub-titulo {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #6b7280;
 }
 
-a{
+.delimitador {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 95%;
+  height: 30rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
 
+label {
+  font-size: 1.7rem;
+  margin: 0 0 0 2rem;
+  padding: 0;
+  font-weight: 500;
+
+}
+
+input {
+  margin: 0;
+  height: 3.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.414);
+  border-radius: 6px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.caixa-link{
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding-right: 2rem ;
 }
