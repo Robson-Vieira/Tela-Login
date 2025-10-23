@@ -8,47 +8,92 @@ html{
 
 body{
   
-  background-color: rgb(250, 250, 250);
+  background-color: rgba(250, 250, 250, 0.581);
 
 }
 
 fieldset{
-  background-color: aqua;
+  
   height: 60rem;
   width: 55rem;
+
 }
 
 .header{
   width: 100%;
-  height: 15rem;
-  background-color: antiquewhite;
-  margin-top: 2rem;
+  height: 23rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+}
+
+.container-header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .tamanho-icone{
-  height: 40px;
-  width: 40px;
+  height: 65px;
+  width: 65px;
+  background-color: rgba(0, 0, 255, 0.719);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  
+
 }
 
-.tamanho-icone img{}
+.tamanho-icone img{
+  height: 90%;
+  width: 90%;
+}
 
-.titulo{}
+.titulo{
+  font-size: 2.4em;
+  margin: 0;
+  padding: 1rem;;
+}
 
-.sub-titulo{}
+.sub-titulo{
+  margin: 0;
+  font-size: 1.4rem;
+}
 
 .delimitador{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  height: 30rem;
+  margin: 0 auto;
+
+  padding-top: 2rem;
+}
+
+.entrada-texto{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
 
 }
 
-.entrada-texto{}
-
 label{
-
+  font-size: 1.7rem;
+  margin: 0;
+  ;
 }
 
 input{
-
+margin: 0;
 }
 
 a{
